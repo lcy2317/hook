@@ -16,6 +16,7 @@ public class DemoController {
     @RequestMapping("/get")
     private String Foo(HttpServletRequest request) {
         String clone_url = request.getParameter("clone_url");
+        System.out.println(clone_url);
         return clone_url;
     }
 }
