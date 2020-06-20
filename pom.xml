@@ -38,6 +38,7 @@
     </dependencies>
 
     <build>
+        <finalName>hook</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
